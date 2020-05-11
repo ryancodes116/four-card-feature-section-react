@@ -1,0 +1,25 @@
+.card {
+  padding: 1.5rem 2rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid hsl(0, 0%, 98%);
+  border-radius: 0.3rem;
+  box-shadow: 0 15px 15px rgba(0, 100, 200, 0.1);
+  margin-bottom: 2.5rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.text {
+  color: hsl(229, 6%, 66%);
+  line-height: 2;
+  margin-bottom: 3rem;
+}
+
+.icon {
+  align-self: flex-end;
+}
