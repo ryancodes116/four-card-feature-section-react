@@ -1,3 +1,8 @@
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
 .topTitle,
 .bottomTitle {
   text-align: center;
@@ -17,4 +22,12 @@
   color: hsl(229, 6%, 66%);
   text-align: center;
   margin-bottom: 3rem;
+}
+
+/* Media Queries */
+@media (min-width: 700px) {
+  .wrapper {
+    width: 60%;
+    max-width: 550px;
+  }
 }

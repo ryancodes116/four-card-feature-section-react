@@ -11,7 +11,7 @@ function Card(props) {
     <div className={classes.join(' ')} style={borderStyle}>
       <h3 className={styles.title}>{props.title}</h3>
       <p className={styles.text}>{props.text}</p>
-      <img className={styles.icon} src={props.imageUrl} />
+      <img className={styles.icon} src={props.imageUrl} alt={props.alt} />
     </div>
   );
 }

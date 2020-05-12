@@ -3,7 +3,7 @@ import styles from '../styles/Header.module.css';
 
 function Header() {
   return (
-    <header className="container">
+    <header className={styles.wrapper}>
       <h1 className={styles.topTitle}>Reliable, efficient delivery</h1>
       <h1 className={styles.bottomTitle}>Powered by Technology</h1>
       <p className={styles.text}>

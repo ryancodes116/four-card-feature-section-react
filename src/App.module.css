@@ -22,3 +22,10 @@
   width: 90%;
   margin: 0 auto;
 }
+
+/* Media Queries */
+@media (min-width: 900px) {
+  :global(.container) {
+    width: 70%;
+  }
+}
