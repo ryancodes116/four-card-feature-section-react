@@ -4,4 +4,4 @@ Feature section developed to the exact specifications of the design provided at 
 
 Site is fully responsive, with desktop and mobile designs.
 
-![src/images/four-card-feature-section-desktop.jpg]
+![]src/images/four-card-feature-section-desktop.jpg
